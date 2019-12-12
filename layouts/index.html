@@ -1,0 +1,11 @@
+{{ define "animation" }}
+<div id="sketch">
+  <iframe scrolling="no" src="{{ .Site.BaseURL }}/js/animation.html"></iframe>
+</div>
+
+<div id="sketch-cover"></div>
+{{ end }}
+
+{{ define "content" }}
+  {{ partial "home.html" . }}
+{{ end }}
