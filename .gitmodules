@@ -1,3 +1,0 @@
-[submodule "themes/coder"]
-	path = themes/coder
-	url = git@github.com:alexmat2on/hugo-coder.git
